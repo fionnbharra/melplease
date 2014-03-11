@@ -1,0 +1,1 @@
+function getURLParameter(a){"use strict";return decodeURI((RegExp(a+"=(.+?)(&|$)").exec(location.search)||[,null])[1])}jQuery(document).ready(function(a){"use strict";var b=getURLParameter("item");"null"===b&&(b="scotch egg party"),a("#item").html(b)});
